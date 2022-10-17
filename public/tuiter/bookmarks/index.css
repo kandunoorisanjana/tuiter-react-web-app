@@ -1,4 +1,37 @@
-.wd-background{
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+
+.left-addon .glyphicon  { left:  0px;}
+
+.left-addon input  { padding-left:  30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wd-background{
     background-color: black;
     border-color: rgb(47, 51, 54);
 }
@@ -77,4 +110,4 @@
 .wd-round{
     border-bottom: 1px solid lightgray;
     border-radius: 10px;
-}
+} */
