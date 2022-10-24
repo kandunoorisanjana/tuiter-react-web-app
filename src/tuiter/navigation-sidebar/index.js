@@ -38,7 +38,7 @@ const NavigationSidebar = (
         </Link>
     </div>
     <div className={`list-group-item ${active === 'notifications' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-bell"></i>
@@ -50,7 +50,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'messages' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-envelope"></i>
@@ -62,7 +62,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'bookmarks' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-bookmark"></i>
@@ -74,7 +74,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'lists' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-list"></i>
@@ -86,7 +86,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-user"></i>
@@ -98,7 +98,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'more' ? 'active' : ''}`}>
-        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
+        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-ellipsis-h"></i>
