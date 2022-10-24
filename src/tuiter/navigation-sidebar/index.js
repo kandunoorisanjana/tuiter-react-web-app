@@ -14,7 +14,7 @@ const NavigationSidebar = (
         <i className="fab fa-twitter"></i>
     </div>
     <div className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
-        <Link to = "/tuiter/home" style={{"text-decoration":"none", "color":"black"}}>
+        <Link to = "/tuiter/home" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-home"></i>
@@ -26,7 +26,7 @@ const NavigationSidebar = (
         </Link>
     </div>
     <div className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
-        <Link to="/tuiter/explore" style={{"text-decoration":"none", "color":"black"}}>
+        <Link to="/tuiter/explore" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-hashtag"></i>
@@ -38,7 +38,7 @@ const NavigationSidebar = (
         </Link>
     </div>
     <div className={`list-group-item ${active === 'notifications' ? 'active' : ''}`}>
-        <a href="#" style={{"text-decoration":"none", "color":"black"}}>
+        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-bell"></i>
@@ -50,7 +50,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'messages' ? 'active' : ''}`}>
-        <a href="#" style={{"text-decoration":"none", "color":"black"}}>
+        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-envelope"></i>
@@ -62,7 +62,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'bookmarks' ? 'active' : ''}`}>
-        <a href="#" style={{"text-decoration":"none", "color":"black"}}>
+        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-bookmark"></i>
@@ -74,7 +74,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'lists' ? 'active' : ''}`}>
-        <a href="#" style={{"text-decoration":"none", "color":"black"}}>
+        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-list"></i>
@@ -86,7 +86,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
-        <a href="#" style={{"text-decoration":"none", "color":"black"}}>
+        <a href="#" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-user"></i>
