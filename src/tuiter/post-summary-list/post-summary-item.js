@@ -22,7 +22,7 @@ const PostSummaryItem = (
                 <span className="fw-bolder">{post.title}</span><br/>
               </div>
               <div className="col-3 card my-auto">
-                <img src={`/images/${post.image}`} className="card-img-top my-auto"/>
+                <img src={`/images/${post.image}`} className="card-img-top my-auto" alt=""/>
               </div>
             </div>
         </li>
