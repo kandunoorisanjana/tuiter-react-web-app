@@ -40,7 +40,7 @@ const ProfileComponent = (
             </div>
             <div className="row">
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10" >
-                    <img src={`/images/${profile.profilePicture}`} className="wd-rounded-images position-relative" height="100px" width="100px" style={{"bottom":"1rem"}} alt=" "/>
+                    <img src={`/images/${profile.profilePicture}`} className="rounded-circle position-relative" height="100px" width="100px" style={{"bottom":"1rem"}} alt=" "/>
                 </div>
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 mt-1">
                     <Link to="/tuiter/edit-profile"><div className="btn wd-rounded-buttons float-right" style={{"background":"black","color":"white","border":"1px solid white"}}>Edit</div></Link>
