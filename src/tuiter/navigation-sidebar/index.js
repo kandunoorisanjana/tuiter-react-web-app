@@ -86,7 +86,7 @@ const NavigationSidebar = (
         </a>
     </div>
     <div className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
-        <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
+    <Link to="/tuiter/profile" style={{"textDecoration":"none", "color":"black"}}>
         <div className="row">
               <div className="col-2">
                 <i className="fas fa-user"></i>
@@ -95,7 +95,7 @@ const NavigationSidebar = (
                 Profile
               </div>
         </div>
-        </a>
+        </Link>
     </div>
     <div className={`list-group-item ${active === 'more' ? 'active' : ''}`}>
         <a href="home.html" style={{"textDecoration":"none", "color":"black"}}>
